@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 450px;
+            margin:30px auto;
+        }
+
+        #box0{
+            background: #8e93dd;
+            border-radius: 30px;
+            padding:10px;
+        }
+
+        #box1{
+            overflow: hidden;
+            height: 250px;
+            background: #dd8e8e;
+            border-radius: 30px;
+            padding:10px;
+        }
+
+        #box2{
+            overflow: visible;
+            height: 250px;
+            background: #ddd18e;
+            border-radius: 30px;
+            padding:10px;
+        }
+
+
+        #box3{
+            background: #8eddcc;
+            border-radius: 30px;
+            padding:10px;
+
+        }
+
+        #box4{
+            overflow: scroll;
+            height: 250px;
+            background: #97dd8e;
+            border-radius: 30px;
+            padding:10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box0">
+        <h3>Texto bruto</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo risus, vehicula non purus eget, tincidunt dictum dui. Phasellus ullamcorper diam non nisi mattis venenatis. Nulla suscipit in felis quis ultricies. Phasellus ut sapien eget mi tempor hendrerit vel at turpis. Vivamus posuere placerat tellus nec semper. Maecenas quam mi, auctor quis felis id, ultrices consectetur metus. Sed congue dui vel nulla luctus blandit vitae eget dolor. Vivamus venenatis tempor tellus, in pretium lectus semper a.
+            Duis tincidunt tempus felis in ultricies. Fusce laoreet bibendum lectus tempus elementum. Praesent posuere commodo sapien, et cursus tortor volutpat et. Aliquam eu erat non mauris elementum elementum. Nullam vitae erat eleifend, consequat odio non, consectetur dolor. Maecenas iaculis dictum velit non interdum. Suspendisse mollis quis mauris nec aliquet. Ut vehicula est sed tortor volutpat, sit amet scelerisque lorem auctor. Etiam volutpat mi urna, nec commodo tellus posuere at. Praesent ornare ullamcorper nunc ut fringilla. Integer pharetra, libero eget mollis rhoncus, purus lectus consectetur lorem, nec luctus metus nisl ut eros. Proin tristique gravida massa molestie venenatis. Nulla in ultrices libero.
+            Sed vestibulum, nulla a varius vehicula, lectus nulla iaculis tortor, et blandit erat metus at ipsum. Pellentesque vitae porttitor odio. Cras at massa sollicitudin, egestas arcu sit amet, convallis mauris. Vivamus efficitur vestibulum lectus at consectetur. Praesent tristique lorem sit amet malesuada dignissim. In facilisis facilisis odio, ac lobortis est semper sit amet. In tempor sit amet massa id accumsan. Fusce magna velit, varius a consequat non, suscipit vitae mi. Quisque volutpat tellus porta, egestas odio in, congue mauris. Fusce eget gravida urna. Aenean vitae viverra libero. Phasellus maximus commodo tellus at suscipit. Aenean sem purus, fermentum vitae pharetra sit amet, vulputate at odio.
+            Praesent lacinia justo et ornare venenatis. Ut elementum, augue vitae hendrerit suscipit, risus odio auctor eros, ut posuere neque lectus vel urna. Integer egestas ipsum vitae tellus fermentum aliquet. Cras tortor arcu, egestas ac urna sed, tincidunt scelerisque dolor. Duis at odio sit amet nibh consequat molestie nec sed purus. Aliquam vehicula, nulla vel rhoncus ultrices, leo felis gravida ante, eu lacinia risus libero at nibh. Aenean mattis massa ac semper convallis. Ut feugiat aliquam fringilla. Vestibulum mattis metus a porttitor varius. Pellentesque tempus viverra pharetra. </p>
+    </div>
+
+    <div class="box" id="box1">
+        <h3>Com overflow hidden</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo risus, vehicula non purus eget, tincidunt dictum dui. Phasellus ullamcorper diam non nisi mattis venenatis. Nulla suscipit in felis quis ultricies. Phasellus ut sapien eget mi tempor hendrerit vel at turpis. Vivamus posuere placerat tellus nec semper. Maecenas quam mi, auctor quis felis id, ultrices consectetur metus. Sed congue dui vel nulla luctus blandit vitae eget dolor. Vivamus venenatis tempor tellus, in pretium lectus semper a.
+            Duis tincidunt tempus felis in ultricies. Fusce laoreet bibendum lectus tempus elementum. Praesent posuere commodo sapien, et cursus tortor volutpat et. Aliquam eu erat non mauris elementum elementum. Nullam vitae erat eleifend, consequat odio non, consectetur dolor. Maecenas iaculis dictum velit non interdum. Suspendisse mollis quis mauris nec aliquet. Ut vehicula est sed tortor volutpat, sit amet scelerisque lorem auctor. Etiam volutpat mi urna, nec commodo tellus posuere at. Praesent ornare ullamcorper nunc ut fringilla. Integer pharetra, libero eget mollis rhoncus, purus lectus consectetur lorem, nec luctus metus nisl ut eros. Proin tristique gravida massa molestie venenatis. Nulla in ultrices libero.
+            Sed vestibulum, nulla a varius vehicula, lectus nulla iaculis tortor, et blandit erat metus at ipsum. Pellentesque vitae porttitor odio. Cras at massa sollicitudin, egestas arcu sit amet, convallis mauris. Vivamus efficitur vestibulum lectus at consectetur. Praesent tristique lorem sit amet malesuada dignissim. In facilisis facilisis odio, ac lobortis est semper sit amet. In tempor sit amet massa id accumsan. Fusce magna velit, varius a consequat non, suscipit vitae mi. Quisque volutpat tellus porta, egestas odio in, congue mauris. Fusce eget gravida urna. Aenean vitae viverra libero. Phasellus maximus commodo tellus at suscipit. Aenean sem purus, fermentum vitae pharetra sit amet, vulputate at odio.
+            Praesent lacinia justo et ornare venenatis. Ut elementum, augue vitae hendrerit suscipit, risus odio auctor eros, ut posuere neque lectus vel urna. Integer egestas ipsum vitae tellus fermentum aliquet. Cras tortor arcu, egestas ac urna sed, tincidunt scelerisque dolor. Duis at odio sit amet nibh consequat molestie nec sed purus. Aliquam vehicula, nulla vel rhoncus ultrices, leo felis gravida ante, eu lacinia risus libero at nibh. Aenean mattis massa ac semper convallis. Ut feugiat aliquam fringilla. Vestibulum mattis metus a porttitor varius. Pellentesque tempus viverra pharetra. </p>
+    </div>
+    <div class="box" id="box2">
+        <h3>Com overflow visible</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo risus, vehicula non purus eget, tincidunt dictum dui. Phasellus ullamcorper diam non nisi mattis venenatis. Nulla suscipit in felis quis ultricies. Phasellus ut sapien eget mi tempor hendrerit vel at turpis. Vivamus posuere placerat tellus nec semper. Maecenas quam mi, auctor quis felis id, ultrices consectetur metus. Sed congue dui vel nulla luctus blandit vitae eget dolor. Vivamus venenatis tempor tellus, in pretium lectus semper a.
+            Duis tincidunt tempus felis in ultricies. Fusce laoreet bibendum lectus tempus elementum. Praesent posuere commodo sapien, et cursus tortor volutpat et. Aliquam eu erat non mauris elementum elementum. Nullam vitae erat eleifend, consequat odio non, consectetur dolor. Maecenas iaculis dictum velit non interdum. Suspendisse mollis quis mauris nec aliquet. Ut vehicula est sed tortor volutpat, sit amet scelerisque lorem auctor. Etiam volutpat mi urna, nec commodo tellus posuere at. Praesent ornare ullamcorper nunc ut fringilla. Integer pharetra, libero eget mollis rhoncus, purus lectus consectetur lorem, nec luctus metus nisl ut eros. Proin tristique gravida massa molestie venenatis. Nulla in ultrices libero.
+            Sed vestibulum, nulla a varius vehicula, lectus nulla iaculis tortor, et blandit erat metus at ipsum. Pellentesque vitae porttitor odio. Cras at massa sollicitudin, egestas arcu sit amet, convallis mauris. Vivamus efficitur vestibulum lectus at consectetur. Praesent tristique lorem sit amet malesuada dignissim. In facilisis facilisis odio, ac lobortis est semper sit amet. In tempor sit amet massa id accumsan. Fusce magna velit, varius a consequat non, suscipit vitae mi. Quisque volutpat tellus porta, egestas odio in, congue mauris. Fusce eget gravida urna. Aenean vitae viverra libero. Phasellus maximus commodo tellus at suscipit. Aenean sem purus, fermentum vitae pharetra sit amet, vulputate at odio.
+            Praesent lacinia justo et ornare venenatis. Ut elementum, augue vitae hendrerit suscipit, risus odio auctor eros, ut posuere neque lectus vel urna. Integer egestas ipsum vitae tellus fermentum aliquet. Cras tortor arcu, egestas ac urna sed, tincidunt scelerisque dolor. Duis at odio sit amet nibh consequat molestie nec sed purus. Aliquam vehicula, nulla vel rhoncus ultrices, leo felis gravida ante, eu lacinia risus libero at nibh. Aenean mattis massa ac semper convallis. Ut feugiat aliquam fringilla. Vestibulum mattis metus a porttitor varius. Pellentesque tempus viverra pharetra. 
+        </p>
+    </div>
+    <div class="box" id="box3">
+        <h3>Sem overflow</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo risus, vehicula non purus eget, tincidunt dictum dui. Phasellus ullamcorper diam non nisi mattis venenatis. Nulla suscipit in felis quis ultricies. Phasellus ut sapien eget mi tempor hendrerit vel at turpis. Vivamus posuere placerat tellus nec semper. Maecenas quam mi, auctor quis felis id, ultrices consectetur metus. Sed congue dui vel nulla luctus blandit vitae eget dolor. Vivamus venenatis tempor tellus, in pretium lectus semper a.
+            Duis tincidunt tempus felis in ultricies. Fusce laoreet bibendum lectus tempus elementum. Praesent posuere commodo sapien, et cursus tortor volutpat et. Aliquam eu erat non mauris elementum elementum. Nullam vitae erat eleifend, consequat odio non, consectetur dolor. Maecenas iaculis dictum velit non interdum. Suspendisse mollis quis mauris nec aliquet. Ut vehicula est sed tortor volutpat, sit amet scelerisque lorem auctor. Etiam volutpat mi urna, nec commodo tellus posuere at. Praesent ornare ullamcorper nunc ut fringilla. Integer pharetra, libero eget mollis rhoncus, purus lectus consectetur lorem, nec luctus metus nisl ut eros. Proin tristique gravida massa molestie venenatis. Nulla in ultrices libero.
+            Sed vestibulum, nulla a varius vehicula, lectus nulla iaculis tortor, et blandit erat metus at ipsum. Pellentesque vitae porttitor odio. Cras at massa sollicitudin, egestas arcu sit amet, convallis mauris. Vivamus efficitur vestibulum lectus at consectetur. Praesent tristique lorem sit amet malesuada dignissim. In facilisis facilisis odio, ac lobortis est semper sit amet. In tempor sit amet massa id accumsan. Fusce magna velit, varius a consequat non, suscipit vitae mi. Quisque volutpat tellus porta, egestas odio in, congue mauris. Fusce eget gravida urna. Aenean vitae viverra libero. Phasellus maximus commodo tellus at suscipit. Aenean sem purus, fermentum vitae pharetra sit amet, vulputate at odio.
+            Praesent lacinia justo et ornare venenatis. Ut elementum, augue vitae hendrerit suscipit, risus odio auctor eros, ut posuere neque lectus vel urna. Integer egestas ipsum vitae tellus fermentum aliquet. Cras tortor arcu, egestas ac urna sed, tincidunt scelerisque dolor. Duis at odio sit amet nibh consequat molestie nec sed purus. Aliquam vehicula, nulla vel rhoncus ultrices, leo felis gravida ante, eu lacinia risus libero at nibh. Aenean mattis massa ac semper convallis. Ut feugiat aliquam fringilla. Vestibulum mattis metus a porttitor varius. Pellentesque tempus viverra pharetra. 
+        </p>
+    </div>
+
+    <div class="box" id="box4">
+        <h3>Com overflow scroll</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo risus, vehicula non purus eget, tincidunt dictum dui. Phasellus ullamcorper diam non nisi mattis venenatis. Nulla suscipit in felis quis ultricies. Phasellus ut sapien eget mi tempor hendrerit vel at turpis. Vivamus posuere placerat tellus nec semper. Maecenas quam mi, auctor quis felis id, ultrices consectetur metus. Sed congue dui vel nulla luctus blandit vitae eget dolor. Vivamus venenatis tempor tellus, in pretium lectus semper a.
+            Duis tincidunt tempus felis in ultricies. Fusce laoreet bibendum lectus tempus elementum. Praesent posuere commodo sapien, et cursus tortor volutpat et. Aliquam eu erat non mauris elementum elementum. Nullam vitae erat eleifend, consequat odio non, consectetur dolor. Maecenas iaculis dictum velit non interdum. Suspendisse mollis quis mauris nec aliquet. Ut vehicula est sed tortor volutpat, sit amet scelerisque lorem auctor. Etiam volutpat mi urna, nec commodo tellus posuere at. Praesent ornare ullamcorper nunc ut fringilla. Integer pharetra, libero eget mollis rhoncus, purus lectus consectetur lorem, nec luctus metus nisl ut eros. Proin tristique gravida massa molestie venenatis. Nulla in ultrices libero.
+            Sed vestibulum, nulla a varius vehicula, lectus nulla iaculis tortor, et blandit erat metus at ipsum. Pellentesque vitae porttitor odio. Cras at massa sollicitudin, egestas arcu sit amet, convallis mauris. Vivamus efficitur vestibulum lectus at consectetur. Praesent tristique lorem sit amet malesuada dignissim. In facilisis facilisis odio, ac lobortis est semper sit amet. In tempor sit amet massa id accumsan. Fusce magna velit, varius a consequat non, suscipit vitae mi. Quisque volutpat tellus porta, egestas odio in, congue mauris. Fusce eget gravida urna. Aenean vitae viverra libero. Phasellus maximus commodo tellus at suscipit. Aenean sem purus, fermentum vitae pharetra sit amet, vulputate at odio.
+            Praesent lacinia justo et ornare venenatis. Ut elementum, augue vitae hendrerit suscipit, risus odio auctor eros, ut posuere neque lectus vel urna. Integer egestas ipsum vitae tellus fermentum aliquet. Cras tortor arcu, egestas ac urna sed, tincidunt scelerisque dolor. Duis at odio sit amet nibh consequat molestie nec sed purus. Aliquam vehicula, nulla vel rhoncus ultrices, leo felis gravida ante, eu lacinia risus libero at nibh. Aenean mattis massa ac semper convallis. Ut feugiat aliquam fringilla. Vestibulum mattis metus a porttitor varius. Pellentesque tempus viverra pharetra. 
+        </p>
+    </div>
+</body>
+</html>
