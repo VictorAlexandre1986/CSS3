@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  background-color:#FFFFFF;
+  width: 100%;
+  height: 100px;
+}
+
+#myDIV div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+#myDIV #diagonal {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: relative;
+  animation: diagonal 5s infinite;
+}
+
+#myDIV1 {
+  background-color:#FFFFFF;
+  width: 100%;
+  height: 300px;
+}
+
+#myDIV1 div {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  position: relative;
+  animation: myothermove 5s infinite;
+}
+
+
+
+#myDIV2 {
+  background-color:#FFFFFF;
+  width: 100%;
+  height: 300px;
+}
+
+#myDIV2 div {
+  width: 100px;
+  height: 100px;
+  background: green;
+  position: relative;
+  animation: mylastmove 5s infinite;
+}
+
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+@keyframes myothermove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+@keyframes mylastmove {
+  from {background-color: green; border-radius:0%}
+  to {background-color: purple; border-radius:50%}
+}
+
+@keyframes diagonal{
+	from {top:0px; left:0px;}
+    to {top:200px; left:200px;}
+}
+</style>
+</head>
+<body>
+
+<h1>The animation Property</h1>
+
+<div id="myDIV">
+  <div></div>
+  <div id="diagonal"></div>
+</div>
+
+<div id="myDIV1">
+  <div></div>
+</div>
+
+<div id="myDIV2">
+  <div></div>
+</div>
+
+<div id="myDIV3">
+  <div></div>
+</div>
+
+</body>
+</html>
